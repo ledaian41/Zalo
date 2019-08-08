@@ -28,7 +28,7 @@ MessagesStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={ Platform.OS === "ios" ? "ios-chatbubbles" : "android-messages" }
+      name={ Platform.OS === "ios" ? "ios-chatbubbles" : "md-chatbubbles" }
     />
   ),
 };
