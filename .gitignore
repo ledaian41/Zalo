@@ -10,3 +10,6 @@ npm-debug.*
 web-build/
 web-report/
 yarn.lock
+.idea/*
+.expo-shared/*
+.component/__tests__/*
