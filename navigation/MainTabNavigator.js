@@ -75,7 +75,7 @@ const TimelineStack = createStackNavigator(
 );
 
 TimelineStack.navigationOptions = {
-  tabBarLabel: 'Groups',
+  tabBarLabel: 'Timeline',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-bookmarks' : 'md-bookmarks'} />
   ),
@@ -91,7 +91,7 @@ const MoreStack = createStackNavigator(
 );
 
 MoreStack.navigationOptions = {
-  tabBarLabel: 'Groups',
+  tabBarLabel: 'More',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
   ),
